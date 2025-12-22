@@ -10,31 +10,23 @@
 </head>
 <body>
     <header>
+
     </header>
-    <main>
-        <!-- section : 카드UI, 의미 있는 콘텐츠 묶음 -->
-        <div class="main-wrapper">
-            <h1>마이페이지</h1>
-            <section class="card">
-                <!-- div : 구역 나누기, css 레이아웃용 박스-->
-                <div class="header-profile">
-                    <!-- src : 이미지 삽입 / alt : 깨졌을 때 대체 텍스트(무조건 작성!) -->
-                    <img src="/mypage_user/main/img/user_profile.png" alt="프로필 사진">
-                    <div class="profile-name">회원 이름</div>
-                </div>
-                <div class="body-button">
-                    <!-- ul : 순서 없는 리스트
-                         li : ul 직계 자식 (무조건!) -->
-                    <ul class="action-list">
-                        <li><button>회원 정보</button></li>
-                        <li><button>예약 조회</button></li>
-                        <li><button>후기 관리</button></li>
-                        <li><button>C/S 문의</button></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </main>
+    <body>
+        <section class="mypage-main">
+            
+            <div class="user-profile">
+                <img src="/mypage_user/main/img/user_profile.png" alt="회원 프로필 사진">
+                <p>이름</p>
+            </div>
+            <nav class="mypage-index">
+                <a href="/mypage_user/info/info.html" class="user-info">회원 정보</a>
+                <a href="/mypage_user/reserve/reserve.html" class="user-reserve">예약 조회</a>
+                <a href="/mypage_user/review/review.html" class="user-review">후기 관리</a>
+                <a href="" class="user-board">CS 문의</a>
+            </nav>
+        </section>
+    </body>
     <footer>
 
     </footer>
