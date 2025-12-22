@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css 코드 불러오기 -->
+    <link rel="stylesheet" href="/info/info.css">
+    <title>마이페이지_회원용</title>
+</head>
+<body>
+    <header>
+       <br>
+    </header>
+    <main>
+        <!-- wrapper : 감싸는 것 상위 컨테이너 -->
+        <div class="main-wrapper">
+            <aside class="left">
+                <section class="card">
+                    <div class="header-profile">
+                        <img src="/main/img/프로필사진.png" alt="프로필 사진">
+                        <div class="profile-name">회원 이름</div>
+                    </div>
+                    <div class="body-button">
+                        <!-- ul : 순서 없는 리스트
+                            li : ul 직계 자식 (무조건!) -->
+                        <ul class="action-list">
+                            <li><button>회원 정보</button></li>
+                            <li><button>예약 조회</button></li>
+                            <li><button>후기 관리</button></li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+
+            <section class="right">
+                <div class="user-info">
+                    <label>아이디</label>
+                    <input value="아이디">
+                </div>
+                <div class="user-info">
+                    <label>비밀번호</label>
+                    <input value="비밀번호">
+                </div>
+                <div class="user-info">
+                    <label>이름</label>
+                    <input value="이름">
+                </div>
+                <div class="user-info">
+                    <label>생년월일</label>
+                    <input value="생년월일">
+                </div>
+                <div class="user-info">
+                    <label>이메일</label>
+                    <input value="이메일">
+                </div>
+                <div class="user-info">
+                    <label>전화번호</label>
+                    <input value="전화번호">
+                </div>
+                <div class="user-sex">
+                    <label>성별</label>
+                    <button>남</button>
+                    <button>여</button>
+                </div>
+                <button class="update">회원정보 수정</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
