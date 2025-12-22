@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css 코드 불러오기 -->
-    <link rel="stylesheet" href="/review/review.css">
-    <title>마이페이지_회원용</title>
+    <link rel="stylesheet" href="/mypage_user/review/review.css">
+    <title>마이페이지_회원용_후기목록</title>
 </head>
 <body>
     <header>
-       <br>
+        <h1>마이페이지</h1>
     </header>
     <main>
         <!-- wrapper : 감싸는 것 상위 컨테이너 -->
@@ -16,7 +16,7 @@
             <aside class="left">
                 <section class="card">
                     <div class="header-profile">
-                        <img src="/main/img/프로필사진.png" alt="프로필 사진">
+                      <img src="/mypage_user/main/img/user_profile.png" alt="프로필 사진">
                         <div class="profile-name">회원 이름</div>
                     </div>
                     <div class="body-button">
@@ -26,6 +26,7 @@
                             <li><button>회원 정보</button></li>
                             <li><button>예약 조회</button></li>
                             <li><button>후기 관리</button></li>
+                            <li><button>C/S 문의</button></li>
                         </ul>
                     </div>
                 </section>
@@ -34,25 +35,37 @@
             <section class="right">
                 <div class="review-grid">
                     <div class="review-card">
-                        <img src="/review/img/장원영.jpeg" alt="후기 사진">
-                        <label>이름1</label>
-                        <label>이름1</label>
-                        <p>고객후기1</p>
-                        <label>예약 날짜1</label>
+                        <img src="/mypage_user/review/img/장원영.jpeg" alt="후기 사진">
+                        <div class="review-wrap">
+                            <div class="label-wrap">
+                                <label>이름</label>
+                                <label>시술 종류</label>
+                            </div>
+                            <p>고객후기1</p>
+                            <label>예약 날짜1</label>
+                        </div>
                     </div>
                     <div class="review-card">
-                        <img src="/review/img/장원영.jpeg" alt="후기 사진">
-                        <label>이름2</label>
-                        <label>이름2</label>
-                        <p>고객후기2</p>
-                        <label>예약 날짜2</label>
+                        <img src="/mypage_user/review/img/장원영.jpeg" alt="후기 사진">
+                        <div class="review-wrap">
+                            <div class="label-wrap">
+                                <label>이름</label>
+                                <label>시술 종류</label>
+                            </div>
+                                <p>고객후기2</p>
+                                <label>예약 날짜2</label>
+                        </div>
                     </div>
                     <div class="review-card">
-                        <img src="/review/img/장원영.jpeg" alt="후기 사진">
-                        <label>이름3</label>
-                        <label>이름3</label>
-                        <p>고객후기3</p>
-                        <label>예약 날짜3</label>
+                        <img class="plus" src="/mypage_user/review/img/plus.png" alt="후기 사진">
+                        <div class="review-wrap">
+                            <div class="label-wrap">
+                                <label>이름</label>
+                                <label>시술 종류</label>
+                            </div>
+                            <p>고객후기3</p>
+                            <label>예약 날짜4</label>
+                        </div>
                     </div>
                 </div>
             </section>

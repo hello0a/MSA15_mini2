@@ -1,4 +1,14 @@
-* {margin: 0;padding: 0;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 100vh;
+    min-height: 100vh;
+    gap: 60px;
+}
 
 main {
     display: flex;
@@ -6,18 +16,18 @@ main {
     align-items: center;
 
     min-width: 100vw;
-    min-height: 100vh;
     color: gray;
 }
 
 .main-wrapper {
     display: flex;
-    gap: 120px;
+    gap: 100px;
 }
 
 .left {
     display: flex;
     width: 300px;
+    height: 530px;
 }
 
 .card {
@@ -25,12 +35,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    padding: 70px;
+    
     border: 1px solid gray;
-    border-radius: 6px;
-    box-shadow: 3px 3px 10px gray;
-
+    border-radius: 8px;
+    box-shadow: 3px 6px 8px 0px gray;
     gap: 35px;
     width: 100%;
 }
@@ -42,9 +50,11 @@ main {
     gap: 15px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.header-profile img {
+    width: 80px;
+    height: 80px;
+    background: gray;
+    border-radius: 100%;
 }
 
 .body-button {
@@ -67,18 +77,101 @@ img {
 }
 
 .action-list button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 100%;
     height: 40px;
     padding: 5px;
-    box-sizing: border-box;
+    font-size: 20px;
+
     color: gray;
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
+
+.action-list li:nth-child(3) button {
+  /* 회원 정보 버튼 전용 스타일 */
+    background: darkgray;
+    color: black;
+    border: 1px solid black;
+}
+
 
 .right {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
-    gap: 10px;
+    height: 500px;
+    width: 480px;
+
+    gap: 20px;
     margin: 10px;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: auto  1fr;
+    grid-template-rows: auto  1fr;
+    gap: 15px;
+}
+
+.review-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 230;
+    height: 300;
+
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+}
+
+.review-card img{
+    width: 230px;
+    height: 170px;
+}
+
+.review-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+}
+
+.label-wrap {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.label-wrap label {
+    background: gainsboro;
+    border-radius: 6px;
+}
+
+.label-wrap label:nth-child(1)  {
+    width: 60px;
+}
+
+.label-wrap label:nth-child(2)  {
+    width: 80px;
+}
+
+.review-wrap p {
+    margin: 0;
+    height: 60px;
+}
+
+.review-card .plus {
+    width: 50px;
+    height: 50px;
+    margin: auto;
 }

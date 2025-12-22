@@ -1,12 +1,22 @@
 * {margin: 0;padding: 0;}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 100vh;
+    min-height: 100vh;
+    gap: 60px;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
 
     min-width: 100vw;
-    min-height: 100vh;
     color: gray;
 }
 
@@ -28,8 +38,8 @@ main {
 
     padding: 70px;
     border: 1px solid gray;
-    border-radius: 6px;
-    box-shadow: 3px 3px 10px gray;
+    border-radius: 8px;
+    box-shadow: 3px 6px 8px 0px gray;
 
     gap: 35px;
     width: 100%;
@@ -43,8 +53,10 @@ main {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    background: gray;
+    border-radius: 100%;
 }
 
 .body-button {
@@ -67,20 +79,43 @@ img {
 }
 
 .action-list button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 100%;
     height: 40px;
     padding: 5px;
-    box-sizing: border-box;
+    font-size: 20px;
+
     color: gray;
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
+
+.action-list li:first-child button {
+  /* 회원 정보 버튼 전용 스타일 */
+    background: darkgray;
+    color: black;
+    border: 1px solid black;
+}
+
 
 .right {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     gap: 20px;
-    margin: 70px;
+    margin: 10px;
+}
+
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .user-info {
@@ -94,8 +129,8 @@ label {
     justify-content: center;
     align-items: center;
 
-    width: 80px;
-    height: 28px;
+    width: 120px;
+    height: 40px;
 
     background: gainsboro;
     border-radius: 6px;
@@ -105,9 +140,9 @@ input {
     display: flex;
     text-align: center;
 
-    width: auto;
-    height: 28px;
-    border: 1px solid gray;
+    width: 250px;
+    height: 40px;
+    border: 1px solid gainsboro;
     border-radius: 6px;
     color: gray;
 }
@@ -121,8 +156,8 @@ input {
     justify-content: center;
     align-items: center;
 
-    width: 63px;
-    border: 1px solid gray;
+    width: 117px;
+    border: 1px solid ghostwhite;
     border-radius: 6px;
     color: gray;
 }
@@ -132,9 +167,9 @@ input {
     justify-content: center;
     align-items: center;
     
-    margin-top: 60px;
-    width: 150;
-    height: 35;
+    margin-top: 40px;
+    width: 160;
+    height: 40;
     font-size: 20px;
     border-radius: 6px;
     border: 1px solid gray;
