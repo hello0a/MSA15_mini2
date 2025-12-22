@@ -32,6 +32,8 @@ main {
 
     gap: 35px;
     width: 100%;
+
+    box-sizing: border-box;
 }
 
 .header-profile {

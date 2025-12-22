@@ -28,6 +28,9 @@ main {
 .left {
     display: flex;
     width: 300px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 .card {
@@ -43,6 +46,7 @@ main {
 
     gap: 35px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .header-profile {
