@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약 페이지</title>
+    <link rel="stylesheet" href="css/reserve.css">
+</head>
+
+<body>
+
+<h2>매장 / 디자이너 (선택완료)</h2>
+
+<div class="container">
+
+  <!-- 예약 날짜 카드 -->
+  <details>
+    <summary>예약 날짜</summary>
+    <div class="card-content">
+      <input type="date">
+    </div>
+  </details>
+
+  <!-- 예약 시간 카드 -->
+  <details>
+    <summary>예약 시간</summary>
+    <div class="card-content">
+      <div class="time-list">
+        <label>
+          <input type="radio" name="time">
+          <span>10:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>12:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>14:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>16:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>18:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>20:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>22:00</span>
+        </label>
+      </div>
+    </div>
+  </details>
+
+  <!-- 시술 선택 카드 -->
+  <details>
+    <summary> 시술 선택</summary>
+    <div class="card-content service">
+        <label><input type="checkbox" name="service" value="컷"> 컷</label>
+        <label><input type="checkbox" name="service" value="펌"> 펌</label>
+        <label><input type="checkbox" name="service" value="염색"> 염색</label>
+        <p>⚠️모발 길이·손상도에 따른 추가 요금이 있을 수 있습니다.</p>
+    </div>
+  </details>
+  <a href="">
+  <button class="reserve-btn">예약하기</button>
+  </a>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약 페이지</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+ h2 {
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* 카드 공통 */
+details {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* 카드 제목 */
+summary {
+  padding: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 펼쳐진 카드 강조 */
+details[open] summary {
+  background: #eee;
+}
+
+/* 카드 내용 */
+.card-content {
+  padding: 18px;
+  border-top: 1px solid #ddd;
+}
+
+/* 캘린더 */
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 시간 버튼 */
+.time-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.time-list input {
+  display: none;
+}
+
+.time-list span {
+  padding: 8px 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.time-list input:checked + span {
+  background: #333;
+  color: #fff;
+}
+
+/* 시술 선택 */
+.service label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.reserve-btn {
+    width: 100%;
+    height: 54px;
+    background: royalblue;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reserve-btn:hover {
+    background: #357bd8;
+}
+
+p {
+    font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>매장 / 디자이너 (선택완료)</h2>
+
+<div class="container">
+
+  <!-- 예약 날짜 카드 -->
+  <details>
+    <summary>예약 날짜</summary>
+    <div class="card-content">
+      <input type="date">
+    </div>
+  </details>
+
+  <!-- 예약 시간 카드 -->
+  <details>
+    <summary>예약 시간</summary>
+    <div class="card-content">
+      <div class="time-list">
+        <label>
+          <input type="radio" name="time">
+          <span>10:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>12:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>14:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>16:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>18:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>20:00</span>
+        </label>
+        <label>
+          <input type="radio" name="time">
+          <span>22:00</span>
+        </label>
+      </div>
+    </div>
+  </details>
+
+  <!-- 시술 선택 카드 -->
+  <details>
+    <summary> 시술 선택</summary>
+    <div class="card-content service">
+        <label><input type="checkbox" name="service" value="컷"> 컷</label>
+        <label><input type="checkbox" name="service" value="펌"> 펌</label>
+        <label><input type="checkbox" name="service" value="염색"> 염색</label>
+        <p>⚠️모발 길이·손상도에 따른 추가 요금이 있을 수 있습니다.</p>
+    </div>
+  </details>
+  <a href="">
+  <button class="reserve-btn">예약하기</button>
+  </a>
+</div>
+
+</body>
+</html>
