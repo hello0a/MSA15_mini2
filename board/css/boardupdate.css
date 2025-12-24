@@ -13,12 +13,13 @@ header{height: 60px; display: flex ; align-items: center; justify-content: space
 background-color: #f1f1f1; padding: 0 20px;}
 
 
-.write-wrap {width: 70%;
+.write-wrap {width: 600px;
 margin: 40px auto;}
 
 .title{text-align: center;
 margin-bottom: 30px;}
 form {
+  width: 100%;
   background: #fff;
   padding: 30px;
   border-radius: 8px;
@@ -51,3 +52,13 @@ textarea {
 button{
      margin-left: 10px;
     background-color: lightgray; border: solid gray 2px; border-radius: 8px;}
+
+
+input[readonly],select:disabled {
+  background-color: #f5f5f5;
+  color: #666;
+}
+.btn:hover {
+  background-color: #357bd8;
+}
+

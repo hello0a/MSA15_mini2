@@ -12,21 +12,25 @@ img{width: 30px;}
 header{height: 60px; display: flex ; align-items: center; justify-content: space-between;
 background-color: #f1f1f1; padding: 0 20px;}
 
-.name{ font-size: 30px; justify-content: center; text-align: center;}
+.name{ font-size: 25px; justify-content: center; text-align: center;}
 .title{text-align: center; margin: 40px 0;}
 section{justify-content: center;text-align: center;}
-.boardText {font-size: 20px;}
-/* 테이블 전체를 카드처럼 */
+.boardText {font-size: 20px; margin-top: 20px;}
+
+.board-box {
+  width: 600px;       
+  margin: 0 auto;
+}
 table {
-  width: 90%;
-  margin: 30px auto;
-  border-collapse: separate;   /* 중요 */
-  border-spacing: 0 12px;      /* 행 사이 간격 */
+  width: 600px;
+  margin: 15px auto;
+  border-collapse: separate;   
+  border-spacing: 0 12px;      
 }
 
-/* 헤더 숨기거나 카드 느낌으로 */
+
 thead {
-  display: none;   /* 이미지처럼 헤더 없는 구조 */
+  display: none;   
 }
 
 /* 각 행 = 카드 */
@@ -80,7 +84,21 @@ tbody tr:hover {
 .name2{font-size: 18px; border-radius: 8px;
 box-shadow: 3px 2px rgba(0, 0, 0, 0.0003);}
 
-.btn{ margin-top: 40px;
-    justify-self: end;
-margin-right: 5%;
- background-color: lightgray; border: solid gray 2px; border-radius: 8px;}
+.btn-area {
+  
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  width: 150px;
+  font-size: 20px;
+  color: #fff;
+  background-color: royalblue;
+  border-radius: 10px;
+
+}
+
+.btn:hover {
+    background: #357bd8;
+}
