@@ -19,7 +19,7 @@
     <section class="mypage-main">
         
         <div class="user-profile">
-            <img src="${pageContext.request.contextPath}/img/profil.png" alt="회원 프로필 사진">
+            <img src="${pageContext.request.contextPath}/img/profile.png" alt="회원 프로필 사진">
             <p>이름</p>
         </div>
         <nav class="mypage-index">

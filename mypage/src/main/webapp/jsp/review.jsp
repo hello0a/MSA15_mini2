@@ -25,8 +25,6 @@
                         <div class="card-body">
                             <h5 class="card-title">매장명</h5>
                             <textarea class="card-text">고객 후기</textarea>
-                        </div>
-                        <div class="card-footer">
                             <p class="date">이용 날짜</p>
                         </div>
                     </div>
@@ -35,8 +33,6 @@
                         <div class="card-body">
                             <h5 class="card-title">매장명</h5>
                             <textarea class="card-text">고객 후기</textarea>
-                        </div>
-                        <div class="card-footer">
                                 <p class="date">이용 날짜</p>
                         </div>
                     </div>
@@ -45,8 +41,6 @@
                         <div class="card-body">
                             <h5 class="card-title">매장명</h5>
                             <textarea class="card-text">고객 후기</textarea>
-                        </div>
-                        <div class="card-footer">
                             <p class="date">이용 날짜</p>
                         </div>
                     </div>
