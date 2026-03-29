@@ -26,7 +26,7 @@ MVC 패턴을 적용하여 실무 역량 강화에 집중하였습니다.
 - DAO (Servlet)
     - DB 접근 및 데이터 처리
 - Servlet (Controller)
-    - 요정 및 응답 처리, 흐름 제어
+    - 요청 및 응답 처리, 흐름 제어
 - JSP (View)
     - 사용자 화면 렌더링
 
@@ -40,15 +40,15 @@ MVC 패턴을 적용하여 실무 역량 강화에 집중하였습니다.
 - CS 문의게시판 : 매장별 문의 게시판 등록, 수정, 삭제
   
 <details>
-    <summary>✨ 핵심 기능</summary>
-    🔐 회원가입 및 로그인
-    ![](./img/signup.png)
-    ![](./img/login.png)
-    📅 예약 및 조회
-    ![](./img/reserve.png)
-    ![](./img/user_reserve.png)
-    ![](./img/designer_reserve_list.png)
-    ![](./img/designer_reserve_detail.png)
+    <summary>✨ 핵심 기능 펼쳐보기</summary>
+    <h3>🔐 회원가입 및 로그인</h3>
+    <img src="./img/signup.png" />
+    <img src="./img/login.png" />
+    <h3>📅 예약 및 조회</h3>
+    <img src="./img/reserve.png" />
+    <img src="./img/user_reserve.png" />
+    <img src="./img/designer_reserve_list.png" />
+    <img src="./img/designer_reserve_detail.png" />
 </details>
 
 ### 3️⃣ 설계
@@ -61,14 +61,14 @@ MVC 패턴을 적용하여 실무 역량 강화에 집중하였습니다.
 
 ### 4️⃣ 개발 환경
 
-![](./docs/개발 환경.png)
-| 구분 | 기술 |
-|------|------|
-| Backend | Servlet, JSP |
-| Frontend | HTML, CSS, JavaScript |
-| Database | MySQL |
-| Server | Apache Tomcat |
-| 기타 | JDBC |
+![](./docs/dev-env.png)
+| 구분       | 기술                          |
+|------------|-------------------------------|
+| Backend    | Servlet, JSP                  |
+| Frontend   | HTML, CSS, JavaScript         |
+| Database   | MySQL                         |
+| Server     | Apache Tomcat                 |
+| 기타       | JDBC                          |
 
 ### 👥 팀 구성 및 역할
 - 안영아
