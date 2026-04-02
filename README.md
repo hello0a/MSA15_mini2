@@ -40,7 +40,9 @@ MVC 패턴을 적용하여 실무 역량 강화에 집중하였습니다.
 - CS 문의게시판 : 매장별 문의 게시판 등록, 수정, 삭제
   
 <details>
-    <summary>✨ 핵심 기능 펼쳐보기</summary>
+    <span style="color:#FFA07A; font-weight:bold;">
+      ✨ 핵심 기능 펼쳐보기
+    </span>
     <h3>🔐 회원가입 및 로그인</h3>
     <img src="./img/signup.png" />
     <img src="./img/login.png" />
